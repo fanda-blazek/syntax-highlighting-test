@@ -24,4 +24,4 @@ class AccountManager {
 }
 
 const manager = new AccountManager();
-manager.addUser({ id: 1, name: "Alice" });
+manager.addUser({ id: 1, name: "Alice", isAdmin: false });
