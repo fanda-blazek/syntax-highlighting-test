@@ -1,0 +1,12 @@
+{
+  "string_key": "A string value",
+  "number_key": 123.45,
+  "boolean_true": true,
+  "boolean_false": false,
+  "null_value": null,
+  "array_of_items": ["item1", 2, { "nested_object": "is here" }],
+  "nested_object": {
+    "id": "abc-123",
+    "comment": "This is a nested object."
+  }
+}
