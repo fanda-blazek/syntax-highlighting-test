@@ -4,6 +4,9 @@ function greet(name) {
 
 const add = (a, b) => a + b;
 
+// Regex examples
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -11,7 +14,9 @@ class Person {
   }
 
   introduce() {
-    console.log(`Hi, I'm ${this.name} and I am ${this.age} years old.`);
+    console.log(
+      `Hi, I'm ${this.name} and I am ${this.age} years old. ${emailRegex.test(this.email) ? "Valid email" : "Invalid email"}`,
+    );
   }
 }
 

@@ -8,6 +8,8 @@ function CustomComponent() {
   );
 }
 
+// This is a comment test
+
 const Counter = ({ initialCount = 0 }) => {
   const [count, setCount] = useState(initialCount);
 
